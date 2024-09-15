@@ -1,0 +1,30 @@
+.jsx-container {
+  background: linear-gradient(145deg, #f0f8ff, #e6faff);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #d0e4f3;
+  width: 320px;
+  margin: 30px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jsx-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.jsx-container h1 {
+  color: #333;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.jsx-container p {
+  color: #666;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}

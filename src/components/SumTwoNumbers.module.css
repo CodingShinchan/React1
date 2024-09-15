@@ -1,0 +1,40 @@
+.sum-container {
+  background: linear-gradient(145deg, #ffebcc, #fff8e1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #ffcc99;
+  width: 320px;
+  margin: 30px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sum-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.sum-container input {
+  padding: 12px;
+  margin: 15px 0;
+  border: 2px solid #ff9933;
+  border-radius: 8px;
+  font-size: 16px;
+  width: calc(100% - 26px);
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.sum-container input:focus {
+  border-color: #cc6600;
+  outline: none;
+}
+
+.sum-container p {
+  color: #cc6600;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}

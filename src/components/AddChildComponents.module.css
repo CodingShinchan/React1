@@ -1,0 +1,46 @@
+.add-child-container {
+  background: linear-gradient(145deg, #f0fff0, #e8f5e9);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #d0e0d0;
+  width: 320px;
+  margin: 30px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-child-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.add-child-container button {
+  background-color: #66ff66;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-child-container button:hover {
+  background-color: #57d657;
+  transform: translateY(-3px);
+}
+
+.add-child-container div {
+  margin-top: 20px;
+}
+
+.add-child-container p {
+  color: #338833;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+.show-hide-container {
+  background: linear-gradient(145deg, #fff0f5, #ffe4e1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #e0b3b3;
+  width: 320px;
+  margin: 30px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.show-hide-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.show-hide-container button {
+  background-color: #ff66b2;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.show-hide-container button:hover {
+  background-color: #ff3385;
+  transform: translateY(-3px);
+}
